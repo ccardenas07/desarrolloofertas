@@ -1,0 +1,460 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+#maincontent
+{
+	background:url(../img/0_ofertas.jpg) 0 0 no-repeat scroll;
+	font-family:Arial, Helvetica, sans-serif;
+	width:1200px;
+	height:800px;
+	margin:0 auto;
+	padding-top: 173px;
+	  font-size: 12px;
+}
+#maincontentmostrarproducto
+{
+	background:url(../img/fondo_ofertas.jpg) 0 0 no-repeat scroll;
+	font-family: Helvetica,Arial, sans-serif;
+	/*width:928px;
+	height:800px;*/
+	width:785px;
+	height:500px;
+	margin:0 auto;
+	padding-top: 173px;
+	/*padding-left: 135px;*/
+}
+#contenedor
+{
+	/*width:785px;
+	height:600px;*/
+	
+}
+.botonProd
+{
+	float: right;
+    margin-right: 165px;
+    margin-top: 121px;
+}
+img
+{
+	border:none;
+}
+.formul a
+{
+	color#fff;
+border: 2px #0000FF solid;
+padding: 5px 20px 10px 40px;
+background-color:#90cc36;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-decoration: none;
+background-image:url(../img/icono2.png);
+background-repeat: no-repeat;
+border-radius: 15px;
+color:#FFF;
+}
+.tit
+{
+	 margin: 0 auto;
+    width: 361px;
+}
+.regresar
+{
+	 margin-left: 363px;
+    
+}
+.regresar a
+{
+	color#fff;
+border: 2px #0000FF solid;
+padding: 5px 20px 10px 40px;
+background-color:#90cc36;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-decoration: none;
+background-image:url(../img/icono2.png);
+background-repeat: no-repeat;
+border-radius: 15px;
+color:#FFF;
+}
+.regresar a
+{
+	
+}
+td a:link {
+    color: #88a66a;
+    margin-left: 0;
+    text-decoration: none;
+}
+.ofertas
+{
+	/*float: left;*/
+    /*left: 465px;*/
+    margin: 0px 122px;
+    /*position: relative;*/
+    width: 731px;
+}
+.producto
+{
+	width:40%;
+	margin:0px;
+	padding:5px;
+	float:left;
+}
+/****************************************************************************/
+/*posicion campo de texto nombre*/
+.usuario
+{
+	margin-left: 141px;
+    margin-top: -12px;
+	
+}
+/*posicion campo de texto apellido*/
+.apellido
+{
+	margin-left: 287px;
+    margin-top: -31px;
+}
+/*posicion campo de texto celular*/
+.password
+{
+	margin-left: 138px;
+    margin-top: -25px;
+}
+/*posicion campo de texto email*/
+.rpassw
+{
+	margin-top: -26px;
+	margin-left: 138px;
+}
+/*posicion campo de texto cedula*/
+.nombre
+{
+	margin-top: -24px;
+	margin-left: 138px;
+}
+.ciudad
+{
+	margin-top: -24px;
+	margin-left: 138px;
+}
+/*posicion label de texto nombre*/
+.lusu
+{
+	margin-top: 23px;
+	margin-left: 28px;
+	width: 159px !important;
+	height: 5px !important;
+}
+/*posicion label de texto cel*/
+.lpass
+{
+	margin-left: 34px;
+    margin-top: 28px;
+	/*width:5px;
+	height:5px;*/
+}
+/*posicion label de texto email*/
+.rpass
+{
+	margin-top: 30px;
+	margin-left: 37px;
+/*width:10px;
+	height:5px;*/
+}
+/*posicion label de texto ced*/
+.lnom
+{
+	margin-top: 21px;
+	margin-left: 36px;
+/*width:5px;
+	height:5px;*/
+}
+.lemail
+{
+	margin-left: 36px;
+margin-top: 19px;
+}
+.email
+{
+	margin-left: 137px;
+margin-top: -17px;
+}
+/*diseño de los inputs*/
+input
+{
+	padding:7px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+	
+}
+select
+{
+	padding:7px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+.button
+{
+		padding:7px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+
+}
+.boton
+{
+	margin-left: 134px;
+    margin-top: 16px;	
+	z-index:100;
+}
+.login
+{
+	margin: 144px auto;
+    width: 476px;
+}
+.panel
+{
+	 margin: 0px auto;
+    width: 39%;
+}
+.imagen1
+{
+	float: left;
+    width: 256px;
+	overflow:hidden;
+}
+.linka1
+{
+	float: left;
+    padding: 6px;
+    width: 150px;
+	margin-left:36px;
+	
+}
+.clear
+{
+	clear:both;
+}
+a:link
+{
+	text-decoration:none;
+	margin-left: 31px;
+	color:#88a66a;
+	
+}
+.colorl
+{
+	/*color: #88a66a;
+	margin-left:96px;*/
+	  color: #88a66a;
+    margin: 0px auto;
+    width: 29%;
+	font-size: 13px;
+}
+.imagenHolder{ width:100px; padding:2px; }
+
+.formul
+{
+	margin: 10px auto;
+    width: 120%;
+}
+.cont
+{
+	float: left;
+    padding: 4px;
+    width: 100%;
+}
+.tituloed
+{
+	margin: 0 auto;
+    width: 346px;
+}	
+
+#fancymenu {
+   height: 30px;
+    margin: 10px auto;
+    overflow: hidden;
+    padding: 15px;
+    position: relative;
+    /*width: 320px;*/
+	width:495px;
+}
+
+
+#fancymenu ul {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+   /* width: 100%;*/
+    width: 107%;
+}
+
+/* Don't apply padding here (offsetWidth will differ in IE)
+If you need padding add it to the child anchor */
+#fancymenu .menudes li {
+  border: 1px dashed #bbb;
+    float: left;
+    list-style: none outside none;
+}
+
+#fancymenu .menudes li a {
+    background: none repeat scroll 0 0 #045ca6;
+    color: #fff;
+    display: block;
+    float: left;
+    height: 12px;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 15px 25px;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+}
+#menu_home a {
+  width: 59px;
+  background-color:#2f61a8  !important;
+  background-color:#2f61a8 ; // ie!
+}
+
+#menu_plantatree a {
+  width: 119px;
+  background-color:#2f61a8  !important;
+  background-color:#2f61a8 ;
+}
+
+#menu_travel a {
+  width: 70px;
+  background-color:#2f61a8  !important;
+  background-color:#2f61a8 ;
+}
+
+#menu_rideanelephant a {
+  width: 142px;
+  background-color:#2f61a8  !important;
+ background-color:#2f61a8  center;
+}
+#fancymenu li.background {
+  background-color:#2f61a8  !important;
+  background-color:#2f61a8  top right;
+  z-index: 8;
+  position: absolute;
+  visibility: hidden;
+}
+
+#fancymenu .background .left {
+  background-color:#2f61a8  top left !important;
+  background-color:#2f61a8  top left;
+  height: 30px;
+  margin-right: 9px; /* 7px is the width of the rounded shape */
+}
+.salir
+{
+	margin-left:831px;
+	color#fff;
+border: 2px #0000FF solid;
+/*padding: 5px 20px 10px 40px;*/
+padding: 5px 20px 8px 0px;
+background-color:#90cc36;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: bold;
+text-decoration: none;
+/*background-image:url(../img/icono2.png);*/
+background-repeat: no-repeat;
+border-radius: 15px;
+color:#FFF;
+width:100px;
+}
+.consulta
+{
+	/*margin-left: -282px;*/
+   margin: 78px auto;
+    width: 77%
+}
+.inscripcion
+{
+	
+	margin: 0px auto;
+    width: 629px;
+}
+.mostra
+{
+	  margin: 0px auto;
+    width: 100%;
+}
+td
+{
+	float:left;
+	width:16%;
+}
+.espacio
+{
+	height: 50px;
+width: 16%;
+vertical-align: top;
+word-break: break-all;
+}
+#usuariol
+{
+	float: left;
+width: 800px;
+position: relative;
+right: 68%;
+}
+.color1
+{
+	background:#FFF;
+}
+.color2
+{
+	background:#CCC;
+}
